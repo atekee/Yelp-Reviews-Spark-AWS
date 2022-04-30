@@ -17,10 +17,12 @@ AWS EMR, S3, PySpark, Python, NLTK
 
 
 ## Cluster Configuration
+
 ![alt text](https://github.com/atekee/Yelp-Reviews-Spark-AWS/blob/main/Assets/Cluster_Configuration.png)
 
 
 ## Notebook Configuration
+
 ![alt text](https://github.com/atekee/Yelp-Reviews-Spark-AWS/blob/main/Assets/Notebook_Configuration.png)
 
 
