@@ -10,6 +10,10 @@ s3://yelp-dataset-cis9760/yelp_academic_dataset_user.json
 
 I provisioned a Spark cluster on AWS EMR, and connected it to Jupyter Notebook to run data analysis with PySpark.
 
+## Tech Used
+AWS EMR, S3, PySpark, Python, NLTK
+
+
 ## Cluster Configuration
 
 ## Notebook Configuration
