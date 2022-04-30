@@ -57,13 +57,15 @@ user = spark.read.json('s3://yelp-dataset-cis9760/yelp_academic_dataset_user.jso
 ```
 
 ## Part II: Analyzing Categories
+Built an association table by mapping single business_id multiple times to each distinct category, and created a barchart of top 20 categories.
 
 ## Part III: Do Yelp Reviews Skew Negative?
+Analyzed review and business data to compare the avg written reviews stars with business stars to find out if Yelp reviews skew negative.
 
 ## Part IV: Should the Elite be Trusted?
+Calculated the avg review stars by multiple elite users for each business_id, and compared it with the business stars to find out if elite user reviews be trusted. 
 
-## Part V: What are the most used unigrams and bigrams in Yelp Hotels & Travel Reviews?
-
-
+## Part V: What are the Most Common Unigrams and Bigrams in Yelp Hotels & Travel Reviews?
+Pre-processed and tokenized the text review data for all Hotels & Travel category, and analyzed it with nlkt FreqDist to find out the most common unigrams and bigrams.
 
 
